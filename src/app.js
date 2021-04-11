@@ -8,7 +8,7 @@ import { addExpense } from './actions/expenses'
 import AppRouter from './routers/AppRouter';
 import { sortByDate } from './actions/filters';
 import moment from 'moment';
-import './firebase/firebase'
+//import './firebase/firebase'
 
 const store = configureStore();
 
