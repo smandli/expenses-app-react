@@ -18,3 +18,21 @@
 .button--secondary {
     background: #888;
 }
+
+.button--google {
+    background-image: url('/images/btn_google_signin.png');
+    color: #444;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+}
+
+.auth-button {
+    border-style: none;
+    background: none;
+    > img {
+        width: 200px;
+    }
+}
+
